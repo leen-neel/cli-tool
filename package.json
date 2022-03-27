@@ -1,0 +1,39 @@
+{
+	"name": "generic-cli",
+	"description": "This is a test",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"generic-cli": "index.js",
+		"gencli": "index.js"
+	},
+	"author": {
+		"name": "leen-neel",
+		"email": "and24903@gmail.com",
+		"url": "https://and249.codes/"
+	},
+	"keywords": [
+		"generic-cli",
+		"leen-neel"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"axios": "^0.26.1",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.6.1"
+	}
+}
